@@ -1,9 +1,11 @@
 from dataclasses import dataclass
+from datetime import datetime
 
 
 @dataclass
 class SignInEvent:
-    timestamp: str
+    timestamp: datetime
     username: str
     ip_address: str
     success: bool
+    interactive: bool

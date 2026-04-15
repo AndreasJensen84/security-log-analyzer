@@ -3,3 +3,13 @@ logs/
 
 # Reports
 reports/
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
