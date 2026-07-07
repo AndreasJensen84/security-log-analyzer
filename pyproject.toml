@@ -1,3 +1,4 @@
+# Project metadata, test settings, and the CLI entrypoint definition.
 [project]
 name = "security-log-analyzer"
 version = "0.1.0"
@@ -7,3 +8,6 @@ requires-python = ">=3.13"
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
+
+[project.scripts]
+security-log-analyzer = "security_log_analyzer.cli:main"
